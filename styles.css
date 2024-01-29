@@ -1,0 +1,227 @@
+nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.content-1 {
+    max-width: 65%;
+    margin: auto;
+    padding: 2rem;
+}
+
+/**
+----------**/
+#home {
+    background-color: #eae7e7;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.home-info {
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    flex: 1;
+    text-align: left;
+}
+
+.right {
+    flex: 1;
+    text-align: right;
+}
+
+.home-name {
+    font-size: 2.5rem;
+    color: #333; /* Highlight color for name */
+    margin-bottom: 10px;
+}
+
+.home-profession {
+    font-size: 1.5rem;
+    color: #555; /* Highlight color for profession */
+}
+
+/* Rounded profile image */
+.profile-image {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+}
+
+.content {
+    max-width: 50%;
+    margin: auto;
+    padding: 2rem;
+}
+
+
+
+/* Add more styles for the other sections as needed */
+#about {
+    background-color: #dbb5b5;
+}
+
+.about-description {
+    margin-top: 1.5rem;
+    line-height: 1.5;
+    font-size: large;
+}
+
+/* Highlighted box for the description */
+.about-description-container {
+    background: linear-gradient(to right, #e7e3e3, #eceaea);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-description-box {
+    margin: 0;
+}
+
+
+
+
+
+.skills-section {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .skill-box {
+    display: inline-block;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    background-color: #e8e5e5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+
+
+  .education-section {
+    width: 70%;
+    max-width: 800px;
+    margin: 50px auto;
+  }
+
+  .education-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .institution-name {
+    font-weight: bold;
+  }
+
+  .timeline-location {
+    margin-top: 10px;
+    color: #555;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-container {
+    width: 75%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+  }
+
+  .contact-form {
+    width: 60%;
+  }
+
+  .contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .contact-links {
+    width: 30%;
+    text-align: center;
+  }
+
+  .contact-links a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #2a85c2;
+    font-weight: bold;
+  }
+
+  .contact-links a:hover {
+    text-decoration: underline;
+  }
